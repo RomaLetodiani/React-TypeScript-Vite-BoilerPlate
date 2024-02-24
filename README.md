@@ -13,6 +13,53 @@ Welcome to the TypeScript React Vite (SWC) Boilerplate! Below, you'll find a cur
 - **Vite**: Enjoy fast development server and optimized production builds with Vite, a modern build tool.
 - **Minimal Configuration**: Get started quickly with minimal configuration required.
 
+## File Structure
+
+```
+project-root/
+├── public/                   # Public directory
+│   ├── vite.svg              # SVG file
+│   └── index.html            # HTML file
+├── src/                      # Source code directory
+│   ├── assets/               # Assets directory
+│   │   ├── fonts/            # Fonts directory
+│   │   └── images/           # Images directory
+│   ├── components/           # Components directory
+│   │   ├── Layout/           # Layout components directory
+│   │   │   ├── Header/       # Header component directory
+│   │   │   └── Footer/       # Footer component directory
+│   │   └── UI/               # UI components directory
+│   │       ├── Button/       # Button component directory
+│   │       └── Input/        # Input component directory
+│   ├── hooks/                # Custom hooks directory
+│   │   └── useStorage.ts     # useStorage hook file
+│   ├── pages/                # Pages directory
+│   │   └── Home/             # Home page directory
+│   ├── services/             # Services directory
+│   │   └── auth/             # Auth service directory
+│   ├── utils/                # Utilities directory
+│   │   ├── helpers/          # Helpers directory
+│   │   └── validation/       # Validation directory
+│   ├── App.tsx               # Main application component
+│   ├── index.css             # Global CSS styles
+│   ├── main.tsx              # Entry point of the application
+│   └── vite-env.d.ts         # Vite environment typescript file
+├── .env                      # Environment variables file
+├── .eslintrc.cjs             # ESLint configuration file
+├── .gitignore                # Git ignore file
+├── .prettierrc               # Prettier configuration file
+├── .prettierignore           # Prettier Ignore file
+├── index.html                # HTML file
+├── package-lock.json         # Package lock file
+├── package.json              # Package JSON file
+├── readme.md                 # Readme file
+├── tsconfig.json             # TypeScript configuration file
+├── tsconfig.node.json        # TypeScript Node configuration file
+└── vite.config.ts            # Vite configuration file
+```
+
+##### This structure separates different types of files/modules to keep the codebase organized and maintainable. Feel free to adjust it based on your project's specific requirements and preferences!
+
 ## Getting Started
 
 To get started with this boilerplate, follow these steps:
@@ -35,7 +82,28 @@ npm install
 npm run dev
 ```
 
-## Libraries and Tools
+### Production
+
+To build the project for production:
+
+```bash
+npm run build
+
+# This will create an optimized build of your application in the `dist` directory.
+```
+
+## Configuration
+
+The project configuration files are located in the root directory:
+
+- `vite.config.ts`: Vite configuration file.
+- `tsconfig.json`: TypeScript configuration file.
+- `.eslintrc.cjs`: ESLint configuration file.
+- `.prettierrc`: Prettier configuration file.
+
+Feel free to modify these files to suit your project requirements.
+
+# Libraries and Tools
 
 <details>
 <summary><h2>Routing and Navigation</h2></summary>
@@ -732,5 +800,26 @@ npm install react-sortable-hoc
 
 </details>
 
-
 # Happy Coding!
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## Acknowledgements
+
+Special thanks to all the developers and contributors of the libraries and tools used in this boilerplate.
+
+## Resources
+
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [Vite Documentation](https://vitejs.dev/guide/)
+
+## Contact
+
+For inquiries or support, please contact [Roman.Letodiani03@Gmail.Com](mailto:Roman.Letodiani03@Gmail.Com).
