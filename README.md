@@ -292,6 +292,7 @@ npm install styled-components
 </li>
 </ul>
 </details>
+
 <details>
 <summary><h2>UI Components</h2></summary>
 <ul>
@@ -579,7 +580,7 @@ npm install uuid
 
 **Documentation:** [npmjs.com/package/uuid](https://www.npmjs.com/package/uuid)
 
-    </details>
+  </details>
 
   </li>
 
@@ -597,7 +598,7 @@ npm install lodash
 
 **Documentation:** [lodash.com/docs](https://lodash.com/docs)
 
-    </details>
+  </details>
 
   </li>
 
@@ -615,7 +616,7 @@ npm install moment
 
 **Documentation:** [momentjs.com/docs](https://momentjs.com/docs)
 
-    </details>
+  </details>
 
   </li>
 
@@ -635,7 +636,32 @@ npm install axios
 
 </details>
 
-  </li>
+</li>
+
+  <li>
+    <details>
+      <summary><h3>React JWT</h3></summary>
+      
+**Description:** React JWT is a library for handling JSON Web Tokens (JWT) in React applications. It provides utilities for decoding, validating, and managing JWT tokens.
+
+**Useful for:**
+
+- Implementing token-based authentication in React applications.
+- Managing JWT tokens received from a server.
+- Handling authentication state and user sessions.
+
+<br/>
+
+**Installation:**
+
+```bash
+npm install react-jwt
+```
+
+**Documentation:** [npmjs.com/package/react-jwt](https://www.npmjs.com/package/react-jwt)
+
+</details>
+</li>
 
 <li>
 <details>
@@ -674,7 +700,7 @@ npm install react-beautiful-dnd
 
 **Documentation:** [github.com/atlassian/react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd)
 
-    </details>
+  </details>
 
   </li>
 
@@ -692,7 +718,7 @@ npm install react-sortable-hoc
 
 **Documentation:** [clauderic.github.io/react-sortable-hoc](https://clauderic.github.io/react-sortable-hoc)
 
-    </details>
+  </details>
 
   </li>
 </ul>
