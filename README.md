@@ -1,10 +1,15 @@
 # TypeScript React Vite (SWC) Boilerplate
 
-This boilerplate offers a solid foundation for crafting modern web applications with TypeScript, React, and Vite. It streamlines the initial setup process, allowing developers to dive straight into coding without the hassle of extensive project configuration.
+This boilerplate offers a solid foundation for crafting modern web applications with TypeScript, React, and Vite. 
+It streamlines the initial setup process, allowing developers to dive straight into coding without the hassle of extensive project configuration.
 
 ## Introduction
 
-Welcome to the TypeScript React Vite (SWC) Boilerplate! Below, you'll find a curated list of libraries and tools commonly used in contemporary web development. These resources cover a range of functionalities, including routing, state management, form management, design approaches, UI components, animations, data validation, testing, and utilities. Feel free to explore and integrate them into your projects as needed.
+Welcome to the TypeScript React Vite (SWC) Boilerplate! 
+Below, you'll find a curated list of libraries and tools commonly used in contemporary web development. 
+These resources cover a range of functionalities, including routing, state management, form management, 
+design approaches, UI components, animations, data validation, testing, and utilities. 
+Feel free to explore and integrate them into your projects as needed.
 
 ## Features
 
@@ -18,28 +23,27 @@ Welcome to the TypeScript React Vite (SWC) Boilerplate! Below, you'll find a cur
 ```
 project-root/
 ├── public/                   # Public directory
-│   ├── vite.svg              # SVG file
-│   └── index.html            # HTML file
+│   └── vite.svg              # SVG favicon 
 ├── src/                      # Source code directory
 │   ├── assets/               # Assets directory
 │   │   ├── fonts/            # Fonts directory
 │   │   └── images/           # Images directory
 │   ├── components/           # Components directory
 │   │   ├── Layout/           # Layout components directory
-│   │   │   ├── Header/       # Header component directory
-│   │   │   └── Footer/       # Footer component directory
+│   │   │   ├── Header/       # Header component
+│   │   │   └── Footer/       # Footer component
 │   │   └── UI/               # UI components directory
-│   │       ├── Button/       # Button component directory
-│   │       └── Input/        # Input component directory
+│   │       ├── Button/       # Button component
+│   │       └── Input/        # Input component
 │   ├── hooks/                # Custom hooks directory
-│   │   └── useStorage.ts     # useStorage hook file
+│   │   └── useStorage.ts     # useStorage hook
 │   ├── pages/                # Pages directory
-│   │   └── Home/             # Home page directory
+│   │   └── Home/             # Home page
 │   ├── services/             # Services directory
-│   │   └── auth/             # Auth service directory
+│   │   └── auth/             # Auth service
 │   ├── utils/                # Utilities directory
-│   │   ├── helpers/          # Helpers directory
-│   │   └── validation/       # Validation directory
+│   │   ├── helpers/          # Helpers
+│   │   └── validation/       # Validation
 │   ├── App.tsx               # Main application component
 │   ├── index.css             # Global CSS styles
 │   ├── main.tsx              # Entry point of the application
@@ -48,7 +52,7 @@ project-root/
 ├── .eslintrc.cjs             # ESLint configuration file
 ├── .gitignore                # Git ignore file
 ├── .prettierrc               # Prettier configuration file
-├── .prettierignore           # Prettier Ignore file
+├── .prettierignore           # Prettier ignore file
 ├── index.html                # HTML file
 ├── package-lock.json         # Package lock file
 ├── package.json              # Package JSON file
@@ -58,7 +62,8 @@ project-root/
 └── vite.config.ts            # Vite configuration file
 ```
 
-##### This structure separates different types of files/modules to keep the codebase organized and maintainable. Feel free to adjust it based on your project's specific requirements and preferences!
+##### This structure separates different types of files/modules to keep the codebase organized and maintainable.
+##### Feel free to adjust it based on your project's specific requirements and preferences!
 
 ## Getting Started
 
