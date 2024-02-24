@@ -162,7 +162,8 @@ Follow instructions on [chakra-ui.com/getting-started/vite-guide](https://chakra
 
 - Adhering to Material Design guidelines
 - Leveraging pre-built components based on Material Design
-  <br/>
+
+<br/>
 
 **Installation:**
 
