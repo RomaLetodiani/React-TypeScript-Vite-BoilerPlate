@@ -1,10 +1,10 @@
 # TypeScript React Vite (SWC) Boilerplate
 
-This boilerplate offers a solid foundation for crafting modern web applications with TypeScript, React, and Vite. It streamlines the initial setup process, allowing developers to dive straight into coding without worrying about project configuration.
+This boilerplate offers a solid foundation for crafting modern web applications with TypeScript, React, and Vite. It streamlines the initial setup process, allowing developers to dive straight into coding without the hassle of extensive project configuration.
 
 ## Introduction
 
-Welcome to the TypeScript React Vite (SWC) Boilerplate! Below, you'll find a curated list of libraries and tools commonly used in contemporary web development. These resources cover a range of functionalities, including routing, design approaches, UI components, animations, and testing, state management, utils, validation. Feel free to explore and integrate them into your projects as needed.
+Welcome to the TypeScript React Vite (SWC) Boilerplate! Below, you'll find a curated list of libraries and tools commonly used in contemporary web development. These resources cover a range of functionalities, including routing, state management, form management, design approaches, UI components, animations, data validation, testing, and utilities. Feel free to explore and integrate them into your projects as needed.
 
 ## Features
 
@@ -34,6 +34,8 @@ npm install
 # Start the development server
 npm run dev
 ```
+
+## Libraries and Tools
 
 <details>
 <summary><h2>Routing and Navigation</h2></summary>
@@ -729,3 +731,6 @@ npm install react-sortable-hoc
 </ul>
 
 </details>
+
+
+# Happy Coding!
