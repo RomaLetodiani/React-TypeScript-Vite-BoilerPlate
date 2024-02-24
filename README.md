@@ -70,10 +70,10 @@ To get started with this boilerplate, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/RomaLetodiani/React-TypeScript-Vite-BoilerPlate.git
 
 # Navigate to the project directory
-cd your-project
+cd React-TypeScript-Vite-BoilerPlate
 
 # Install dependencies
 npm install
@@ -89,7 +89,8 @@ To build the project for production:
 ```bash
 npm run build
 
-# This will create an optimized build of your application in the `dist` directory.
+# This will create an optimized build of
+# your application in the `dist` directory.
 ```
 
 ## Configuration
