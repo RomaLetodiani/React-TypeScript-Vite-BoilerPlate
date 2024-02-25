@@ -1,4 +1,4 @@
-# TypeScript React Vite (SWC) Boilerplate
+# [TypeScript React Vite (SWC) Boilerplate](https://github.com/RomaLetodiani/React-TypeScript-Vite-BoilerPlate)
 
 This boilerplate offers a solid foundation for crafting modern web applications with TypeScript, React, and Vite. 
 It streamlines the initial setup process, allowing developers to dive straight into coding without the hassle of extensive project configuration.
