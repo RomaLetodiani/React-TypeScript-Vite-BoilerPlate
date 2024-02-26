@@ -29,12 +29,12 @@ project-root/
 │   │   ├── fonts/            # Fonts directory
 │   │   └── images/           # Images directory
 │   ├── components/           # Components directory
-│   │   ├── Layout/           # Layout components directory
-│   │   │   ├── Header/       # Header component
-│   │   │   └── Footer/       # Footer component
 │   │   └── UI/               # UI components directory
 │   │       ├── Button/       # Button component
 │   │       └── Input/        # Input component
+│   ├── Layout/               # Layout directory
+│   │   ├── Header/           # Header component
+│   │   └── Footer/           # Footer component
 │   ├── hooks/                # Custom hooks directory
 │   │   └── useStorage.ts     # useStorage hook
 │   ├── pages/                # Pages directory
