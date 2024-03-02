@@ -62,41 +62,57 @@ project-root/
 └── vite.config.ts            # Vite configuration file
 ```
 
-##### This structure separates different types of files/modules to keep the codebase organized and maintainable.
-##### Feel free to adjust it based on your project's specific requirements and preferences!
+- This structure separates different types of files/modules to keep the codebase organized and maintainable.
+- Feel free to adjust it based on your project's specific requirements and preferences!
 
 ## Getting Started
 
 To get started with this boilerplate, follow these steps:
 
-1. Clone the repository.
-2. Install dependencies.
-3. Start the development server.
+1. **Clone the Repository**:
+   - This command clones the repository from the specified URL (`https://github.com/RomaLetodiani/React-TypeScript-Vite-BoilerPlate.git`) to your local machine.
 
-```bash
-# Clone the repository
-git clone https://github.com/RomaLetodiani/React-TypeScript-Vite-BoilerPlate.git
+   ```bash
+   git clone https://github.com/RomaLetodiani/React-TypeScript-Vite-BoilerPlate.git
+   ```
 
-# Navigate to the project directory
-cd React-TypeScript-Vite-BoilerPlate
+2. **Navigate to the Project Directory**:
+   - Change the current directory in your terminal to the newly cloned project directory.
 
-# Install dependencies
-npm install
+   ```bash
+   cd React-TypeScript-Vite-BoilerPlate
+   ```
 
-# Start the development server
-npm run dev
-```
+3. **Remove the Existing Git Repository**:
+   - This command removes the existing Git repository (`.git` directory) from the project directory. It allows you to start with a clean Git history for your own project.
 
-### Production
+   ```bash
+   rm .git
+   ```
 
-To build the project for production:
+4. **Install Dependencies**:
+   - Use npm to install the project dependencies specified in the `package.json` file.
+
+   ```bash
+   npm install
+   ```
+
+5. **Start the Development Server**:
+   - This command starts the development server, allowing you to view and work on your project locally.
+
+   ```bash
+   npm run dev
+   ```
+
+## Production
+
+To build the project for production, run the following command:
 
 ```bash
 npm run build
-
-# This will create an optimized build of
-# your application in the `dist` directory.
 ```
+
+This will create an optimized build of your application in the `dist` directory.
 
 ## Configuration
 
