@@ -101,7 +101,7 @@ To get started with this boilerplate, follow these steps:
    - This command starts the development server, allowing you to view and work on your project locally.
 
    ```bash
-   npm run dev
+   npm start
    ```
 
 ## Production
