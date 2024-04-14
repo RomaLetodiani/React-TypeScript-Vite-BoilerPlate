@@ -604,6 +604,31 @@ npm install --save-dev jest @types/jest
 </li>
 
 <li>
+    <details>
+      <summary><h3>Vitest</h3></summary>
+
+**Description:** Vitest is a Next Generation Testing Framework designed specifically for Vite, a fast development server and bundler for modern web development. Vitest offers speed and efficiency in testing, leveraging Vite's performance for quicker feedback loops.
+
+**Useful for:**
+
+- Testing Vite-based projects with speed and efficiency.
+- Harnessing Vite's capabilities for rapid development and testing cycles.
+- Integrating seamlessly with Vite's ecosystem for a smoother testing experience.
+
+<br/>
+
+**Installation:**
+
+```bash
+npm install --save-dev vitest
+```
+
+**Documentation:** [vitest.dev](https://vitest.dev/)
+
+</details>
+</li>
+
+<li>
 <details>
 <summary><h3>React Testing Library</h3></summary>
 
